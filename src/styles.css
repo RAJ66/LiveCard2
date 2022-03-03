@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  color: #f7faff;
+  border-collapse: separate;
+  perspective: 1px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #2a2a32;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16171c;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.Appp {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #2a2a32;
+  width: 700px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ComponentToPrintContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.CardContainer {
+  display: flex;
+  height: 300px;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.ImgContainer {
+  width: 200px;
+}
+
+.ImgBorder {
+  border: #f7faff 6px solid;
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+}
+
+img {
+  border-radius: 50%;
+  width: 100%;
+  border: rgba(255, 248, 220, 0) 6px solid;
+}
+
+.LiveContainer {
+  display: flex;
+  flex-direction: row;
+}
+.LiveContainer div {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.DetailsContainer {
+  background-color: #29c36e;
+
+  border-radius: 5px;
+
+  color: #f0f0f5;
+  padding: 7px;
+  margin-top: 10px;
+}
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  text-align: left;
+}
+.MainContainer > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.ImgContainer {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  background-color: #16171c;
+  color: black;
+  border: #16171c 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.InputContainer button {
+  color: #feffff;
+  padding: 7px;
+  background-color: #2a2a32;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.InputContainer input {
+  color: #feffff;
+  padding: 7px;
+  background-color: #2a2a32;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 100%;
+  margin-top: 30px;
+}
